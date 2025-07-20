@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fdfdfd,rgb(234, 212, 255));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  transition: all 0.5s ease-in-out;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.toggle {
+  text-align: center;
+  color: #555;
+  cursor: pointer;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.toggle:hover {
+  color: #000;
+}
+
+.message {
+  text-align: center;
+  font-size: 14px;
+  color: red;
+  height: 20px;
+  transition: color 0.3s;
+}
+.back-home {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  margin: 20px;
+  transition: color 0.3s ease;
+}
+.back-home svg {
+  margin-right: 8px;
+}
+.back-home:hover {
+  color: #007bff;
+}
+
